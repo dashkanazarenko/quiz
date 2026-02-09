@@ -5,15 +5,15 @@
     android:orientation="vertical">
 
     <TextView
-        android:text="Quiz App"
-        android:textSize="22sp"
+        android:id="@+id/resultText"
+        android:textSize="20sp"
         android:layout_marginBottom="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
     <Button
-        android:id="@+id/startQuizBtn"
-        android:text="Начать викторину"
+        android:id="@+id/restartBtn"
+        android:text="Вернуться"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 </LinearLayout>

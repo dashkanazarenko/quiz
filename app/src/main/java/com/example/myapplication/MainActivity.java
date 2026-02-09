@@ -3,8 +3,6 @@ package com.example.myapplication;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
-import android.widget.LinearLayout;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -20,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         startQuizBtn.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, QuizActivity.class);
+            intent.putExtra("selectedTopic", "ООП");
             startActivity(intent);
         });
     }
