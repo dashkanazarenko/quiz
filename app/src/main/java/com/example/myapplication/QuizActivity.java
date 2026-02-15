@@ -12,7 +12,7 @@ import java.util.List;
 
 public class QuizActivity extends AppCompatActivity {
 
-    private TextView questionText, counterText;
+    private TextView question, questions;
     private Button option1, option2, option3, option4, nextBtn;
 
     private List<QuestionsList> questionsList;
@@ -24,8 +24,8 @@ public class QuizActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
 
-        questionText = findViewById(R.id.questionText);
-        counterText = findViewById(R.id.counterText);
+        question = findViewById(R.id.question);
+        questions = findViewById(R.id.questions);
 
         option1 = findViewById(R.id.option1);
         option2 = findViewById(R.id.option2);
@@ -54,11 +54,12 @@ public class QuizActivity extends AppCompatActivity {
         });
     }
 
+
     private void showQuestion() {
         QuestionsList q = questionsList.get(currentQuestionIndex);
 
-        counterText.setText((currentQuestionIndex + 1) + "/" + questionsList.size());
-        questionText.setText(q.getQuestion());
+        questions.setText((currentQuestionIndex + 1) + "/" + questionsList.size());
+        question.setText(q.getQuestion());
 
         option1.setText(q.getOption1());
         option2.setText(q.getOption2());
@@ -67,6 +68,7 @@ public class QuizActivity extends AppCompatActivity {
 
         selectedAnswer = "";
     }
+
 
     private void selectAnswer(Button button) {
         selectedAnswer = button.getText().toString();
