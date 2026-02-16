@@ -31,15 +31,15 @@
 ## Скриншоты
 
 ### Главный экран
-![Main](app/src/main/res/drawable/img.png)
-<img width="250" height="523" alt="image" src="https://github.com/user-attachments/assets/463344cb-c74e-44b0-a6e4-a87d617e764d" />
+<img width="241" height="532" alt="image" src="https://github.com/user-attachments/assets/4576d59d-6f47-498c-8f2f-cdf8ebea7e80" />
 
 
 ### Экран викторины
-![Quiz](app/src/main/res/drawable/img_1.png)
+<img width="243" height="507" alt="image" src="https://github.com/user-attachments/assets/9a9d42ef-2aa6-41cc-a91b-2d27f2b5d5f1" />
+
 
 ### Результаты
-![Results](app/src/main/res/drawable/img_2.png)
+<img width="250" height="523" alt="image" src="https://github.com/user-attachments/assets/463344cb-c74e-44b0-a6e4-a87d617e764d" />
 
 
 
