@@ -32,6 +32,8 @@
 
 ### Главный экран
 ![Main](app/src/main/res/drawable/img.png)
+<img width="250" height="523" alt="image" src="https://github.com/user-attachments/assets/463344cb-c74e-44b0-a6e4-a87d617e764d" />
+
 
 ### Экран викторины
 ![Quiz](app/src/main/res/drawable/img_1.png)
