@@ -26,6 +26,21 @@
 - `QuestionsBank.java` — хранилище вопросов по темам.
 - `activity_main.xml`, `activity_quiz.xml`, `activity_results.xml` — макеты экранов.
 
+## Скриншоты проекта
+
+## Скриншоты
+
+### Главный экран
+![Main](app/src/main/res/drawable/img.png)
+
+### Экран викторины
+![Quiz](app/src/main/res/drawable/img_1.png)
+
+### Результаты
+![Results](app/src/main/res/drawable/img_2.png)
+
+
+
 ## Как запустить
 
 1. Откройте проект в **Android Studio**.
