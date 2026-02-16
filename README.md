@@ -28,8 +28,6 @@
 
 ## Скриншоты проекта
 
-## Скриншоты
-
 ### Главный экран
 <img width="241" height="532" alt="image" src="https://github.com/user-attachments/assets/4576d59d-6f47-498c-8f2f-cdf8ebea7e80" />
 
