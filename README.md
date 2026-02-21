@@ -37,7 +37,8 @@
 
 
 ### Результаты
-<img width="250" height="523" alt="image" src="https://github.com/user-attachments/assets/463344cb-c74e-44b0-a6e4-a87d617e764d" />
+<img width="248" height="531" alt="image" src="https://github.com/user-attachments/assets/2011194b-4b4e-4f94-a5ea-a370b483d321" />
+
 
 
 
